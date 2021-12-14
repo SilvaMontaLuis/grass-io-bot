@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>registrarCliente</class>
+ <widget class="QDialog" name="registrarCliente">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>762</width>
+    <height>222</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>741</width>
+     <height>151</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>Registro del Cliente</string>
+   </property>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>30</y>
+      <width>47</width>
+      <height>13</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Nombres:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="txtTelefono">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>90</y>
+      <width>281</width>
+      <height>21</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>90</y>
+      <width>47</width>
+      <height>13</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Teléfono:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>60</y>
+      <width>47</width>
+      <height>13</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Apellidos:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>30</y>
+      <width>47</width>
+      <height>13</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Dirección:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="txtNombres">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>30</y>
+      <width>281</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="maxLength">
+     <number>50</number>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="txtApellidos">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>60</y>
+      <width>281</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="maxLength">
+     <number>50</number>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="txtDireccion">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>30</y>
+      <width>281</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="cursor" stdset="0">
+     <cursorShape>IBeamCursor</cursorShape>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="txtDni">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>90</y>
+      <width>281</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="maxLength">
+     <number>50</number>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_13">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>90</y>
+      <width>61</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>DNI:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_15">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>120</y>
+      <width>61</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>RUC:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="txtRuc">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>120</y>
+      <width>281</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="maxLength">
+     <number>50</number>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QPushButton" name="cmdRegistrar">
+   <property name="geometry">
+    <rect>
+     <x>539</x>
+     <y>180</y>
+     <width>101</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(85, 255, 0);
+font: 10pt &quot;MS Shell Dlg 2&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Registrar</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="cmdCerrar">
+   <property name="geometry">
+    <rect>
+     <x>649</x>
+     <y>180</y>
+     <width>101</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(255, 87, 90);
+font: 10pt &quot;MS Shell Dlg 2&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Cerrar</string>
+   </property>
+  </widget>
+ </widget>
+ <tabstops>
+  <tabstop>txtNombres</tabstop>
+  <tabstop>txtApellidos</tabstop>
+  <tabstop>txtDni</tabstop>
+  <tabstop>txtRuc</tabstop>
+  <tabstop>txtDireccion</tabstop>
+  <tabstop>txtTelefono</tabstop>
+  <tabstop>cmdRegistrar</tabstop>
+  <tabstop>cmdCerrar</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>listarMascotas</class>
+ <widget class="QDialog" name="listarMascotas">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>862</width>
+    <height>480</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QPushButton" name="cmdCerrar">
+   <property name="geometry">
+    <rect>
+     <x>700</x>
+     <y>450</y>
+     <width>101</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(255, 87, 90);
+font: 10pt &quot;MS Shell Dlg 2&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Cerrar</string>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="groupBox_2">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>841</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>Cliente</string>
+   </property>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>60</y>
+      <width>47</width>
+      <height>13</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Nombre:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="txtNombreCli">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>60</y>
+      <width>211</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>ForbiddenCursor</cursorShape>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="txtApellidoCli">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>30</y>
+      <width>211</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>ForbiddenCursor</cursorShape>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>30</y>
+      <width>47</width>
+      <height>13</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Apellido:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="txtDniCli">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>30</y>
+      <width>211</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>ForbiddenCursor</cursorShape>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>30</y>
+      <width>47</width>
+      <height>13</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>DNI:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_11">
+    <property name="geometry">
+     <rect>
+      <x>560</x>
+      <y>30</y>
+      <width>51</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Dirección:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_12">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>60</y>
+      <width>47</width>
+      <height>13</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Teléfono:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="txtTelefonoCli">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>60</y>
+      <width>211</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>ForbiddenCursor</cursorShape>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPlainTextEdit" name="txtDireccionCli">
+    <property name="geometry">
+     <rect>
+      <x>620</x>
+      <y>30</y>
+      <width>211</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="cursor" stdset="0">
+     <cursorShape>ForbiddenCursor</cursorShape>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <zorder>label_2</zorder>
+   <zorder>txtNombreCli</zorder>
+   <zorder>txtApellidoCli</zorder>
+   <zorder>label_3</zorder>
+   <zorder>txtDniCli</zorder>
+   <zorder>label_4</zorder>
+   <zorder>label_11</zorder>
+   <zorder>label_12</zorder>
+   <zorder>txtTelefonoCli</zorder>
+   <zorder>txtDireccionCli</zorder>
+   <zorder>twDoctor</zorder>
+  </widget>
+  <widget class="QGroupBox" name="groupBox_3">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>110</y>
+     <width>741</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>Buscar Mascotas Registradas</string>
+   </property>
+   <widget class="QLabel" name="label_19">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>30</y>
+      <width>81</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Ingrese DNI:</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="cmdBuscarDoc">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>30</y>
+      <width>141</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(26, 53, 80);
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>Buscar</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>470</x>
+      <y>30</y>
+      <width>111</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Actualizar Busqueda:</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="cmdActualizar">
+    <property name="geometry">
+     <rect>
+      <x>580</x>
+      <y>30</y>
+      <width>151</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(26, 53, 80);
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>Actualizar</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="txtBuscarDoc">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>30</y>
+      <width>171</width>
+      <height>21</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>190</y>
+     <width>741</width>
+     <height>241</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>Lista de Mascotas con sus Respectivos Dueños:</string>
+   </property>
+   <widget class="QTableWidget" name="twMascota">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>30</y>
+      <width>611</width>
+      <height>201</height>
+     </rect>
+    </property>
+    <property name="cursor" stdset="0">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <column>
+     <property name="text">
+      <string>Nombre</string>
+     </property>
+     <property name="background">
+      <color>
+       <red>85</red>
+       <green>170</green>
+       <blue>255</blue>
+      </color>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Años</string>
+     </property>
+     <property name="background">
+      <color>
+       <red>85</red>
+       <green>170</green>
+       <blue>255</blue>
+      </color>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Especie</string>
+     </property>
+     <property name="background">
+      <color>
+       <red>85</red>
+       <green>170</green>
+       <blue>255</blue>
+      </color>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Género</string>
+     </property>
+     <property name="background">
+      <color>
+       <red>85</red>
+       <green>170</green>
+       <blue>255</blue>
+      </color>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Raza</string>
+     </property>
+     <property name="background">
+      <color>
+       <red>85</red>
+       <green>170</green>
+       <blue>255</blue>
+      </color>
+     </property>
+    </column>
+   </widget>
+   <widget class="QPushButton" name="cmdEliminar">
+    <property name="geometry">
+     <rect>
+      <x>630</x>
+      <y>90</y>
+      <width>101</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(255, 87, 90);</string>
+    </property>
+    <property name="text">
+     <string>Eliminar Registro</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="cmdReservar">
+    <property name="geometry">
+     <rect>
+      <x>630</x>
+      <y>30</y>
+      <width>101</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(0, 170, 0);
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>Rgistrar Mascota</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="cmdEditar">
+    <property name="geometry">
+     <rect>
+      <x>630</x>
+      <y>60</y>
+      <width>101</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(85, 170, 255);
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>Editar Registro</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

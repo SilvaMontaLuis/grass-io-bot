@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>listarCitas</class>
+ <widget class="QDialog" name="listarCitas">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>751</width>
+    <height>470</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>80</y>
+     <width>731</width>
+     <height>241</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>Lista de Citas Reservadas</string>
+   </property>
+   <widget class="QTableWidget" name="twHistoriaClinica">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>30</y>
+      <width>611</width>
+      <height>201</height>
+     </rect>
+    </property>
+    <property name="cursor" stdset="0">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <column>
+     <property name="text">
+      <string>Hora</string>
+     </property>
+     <property name="background">
+      <color>
+       <red>0</red>
+       <green>170</green>
+       <blue>255</blue>
+      </color>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Motivo</string>
+     </property>
+     <property name="background">
+      <color>
+       <red>0</red>
+       <green>170</green>
+       <blue>255</blue>
+      </color>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Cliente</string>
+     </property>
+     <property name="background">
+      <color>
+       <red>0</red>
+       <green>170</green>
+       <blue>255</blue>
+      </color>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Teléfono</string>
+     </property>
+     <property name="background">
+      <color>
+       <red>0</red>
+       <green>170</green>
+       <blue>255</blue>
+      </color>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Nombre_Mascota</string>
+     </property>
+     <property name="background">
+      <color>
+       <red>0</red>
+       <green>170</green>
+       <blue>255</blue>
+      </color>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Raza</string>
+     </property>
+     <property name="background">
+      <color>
+       <red>0</red>
+       <green>170</green>
+       <blue>255</blue>
+      </color>
+     </property>
+    </column>
+   </widget>
+   <widget class="QPushButton" name="cmdEditar">
+    <property name="geometry">
+     <rect>
+      <x>630</x>
+      <y>60</y>
+      <width>91</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(85, 170, 255);
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>Editar Cita</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="cmdEliminar">
+    <property name="geometry">
+     <rect>
+      <x>630</x>
+      <y>90</y>
+      <width>91</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(255, 87, 90);</string>
+    </property>
+    <property name="text">
+     <string>Eliminar Cita</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="cmdReservar">
+    <property name="geometry">
+     <rect>
+      <x>630</x>
+      <y>30</y>
+      <width>91</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(0, 170, 0);
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>Reserva Tu Cita</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QPushButton" name="cmdCerrar">
+   <property name="geometry">
+    <rect>
+     <x>639</x>
+     <y>440</y>
+     <width>101</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(255, 87, 90);
+font: 10pt &quot;MS Shell Dlg 2&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Cerrar</string>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="groupBox_2">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>731</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>Buscar Reservacion de Citas</string>
+   </property>
+   <widget class="QLabel" name="label_19">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>30</y>
+      <width>81</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Ingrese Fecha:</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="cmdBuscarReservacion">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>30</y>
+      <width>141</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(26, 53, 80);
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>Buscar</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>460</x>
+      <y>30</y>
+      <width>111</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Actualizar Busqueda:</string>
+    </property>
+   </widget>
+   <widget class="QDateEdit" name="dspFecha">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>30</y>
+      <width>181</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>ArrowCursor</cursorShape>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="cmdActualizar">
+    <property name="geometry">
+     <rect>
+      <x>570</x>
+      <y>30</y>
+      <width>151</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(26, 53, 80);
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>Actualizar</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QGroupBox" name="groupBox_3">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>330</y>
+     <width>731</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>Detalles - Observaciones de la cita</string>
+   </property>
+   <widget class="QTextEdit" name="txtDetalle">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>30</y>
+      <width>501</width>
+      <height>51</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="txtEstado">
+    <property name="geometry">
+     <rect>
+      <x>542</x>
+      <y>60</y>
+      <width>181</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(170, 170, 127);
+font: 12pt &quot;MS Shell Dlg 2&quot;;
+color: rgb(0, 0, 0);</string>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>590</x>
+      <y>30</y>
+      <width>91</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Estado de la Cita:</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <tabstops>
+  <tabstop>dspFecha</tabstop>
+  <tabstop>cmdBuscarReservacion</tabstop>
+  <tabstop>cmdActualizar</tabstop>
+  <tabstop>twHistoriaClinica</tabstop>
+  <tabstop>cmdReservar</tabstop>
+  <tabstop>cmdEditar</tabstop>
+  <tabstop>cmdEliminar</tabstop>
+  <tabstop>txtDetalle</tabstop>
+  <tabstop>txtEstado</tabstop>
+  <tabstop>cmdCerrar</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>

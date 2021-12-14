@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>listarClientes</class>
+ <widget class="QDialog" name="listarClientes">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>921</width>
+    <height>404</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>80</y>
+     <width>901</width>
+     <height>271</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>Lista de Clientes:</string>
+   </property>
+   <widget class="QTableWidget" name="twCliente">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>30</y>
+      <width>781</width>
+      <height>201</height>
+     </rect>
+    </property>
+    <property name="cursor" stdset="0">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <column>
+     <property name="text">
+      <string>Nombres</string>
+     </property>
+     <property name="background">
+      <color>
+       <red>0</red>
+       <green>85</green>
+       <blue>255</blue>
+      </color>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Apellidos</string>
+     </property>
+     <property name="background">
+      <color>
+       <red>0</red>
+       <green>85</green>
+       <blue>255</blue>
+      </color>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>DNI</string>
+     </property>
+     <property name="background">
+      <color>
+       <red>0</red>
+       <green>85</green>
+       <blue>255</blue>
+      </color>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Telefono</string>
+     </property>
+     <property name="background">
+      <color>
+       <red>0</red>
+       <green>85</green>
+       <blue>255</blue>
+      </color>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Ruc</string>
+     </property>
+     <property name="background">
+      <color>
+       <red>0</red>
+       <green>85</green>
+       <blue>255</blue>
+      </color>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>N° Mascotas</string>
+     </property>
+     <property name="background">
+      <color>
+       <red>0</red>
+       <green>85</green>
+       <blue>255</blue>
+      </color>
+     </property>
+    </column>
+   </widget>
+   <widget class="QPushButton" name="cmdReservar">
+    <property name="geometry">
+     <rect>
+      <x>800</x>
+      <y>30</y>
+      <width>91</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(0, 170, 0);
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>Rgistrar Cliente</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="cmdEditar">
+    <property name="geometry">
+     <rect>
+      <x>800</x>
+      <y>60</y>
+      <width>91</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(85, 170, 255);
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>Editar Registro</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="cmdEliminar">
+    <property name="geometry">
+     <rect>
+      <x>800</x>
+      <y>90</y>
+      <width>91</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(255, 87, 90);</string>
+    </property>
+    <property name="text">
+     <string>Eliminar Registro</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="cmdListaMas">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>240</y>
+      <width>781</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(26, 53, 80);
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>Listar Mascotas</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QPushButton" name="cmdCerrar">
+   <property name="geometry">
+    <rect>
+     <x>810</x>
+     <y>370</y>
+     <width>101</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(255, 87, 90);
+font: 10pt &quot;MS Shell Dlg 2&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Cerrar</string>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="groupBox_2">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>10</y>
+     <width>731</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>Buscar Clientes Registrados</string>
+   </property>
+   <widget class="QLabel" name="label_19">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>30</y>
+      <width>81</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Ingrese DNI:</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="cmdBuscarCli">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>30</y>
+      <width>141</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(26, 53, 80);
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>Buscar</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>460</x>
+      <y>30</y>
+      <width>111</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Actualizar Busqueda:</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="cmdActualizar">
+    <property name="geometry">
+     <rect>
+      <x>570</x>
+      <y>30</y>
+      <width>151</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(26, 53, 80);
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>Actualizar</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="txtBuscarCli">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>30</y>
+      <width>191</width>
+      <height>21</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <tabstops>
+  <tabstop>txtBuscarCli</tabstop>
+  <tabstop>cmdBuscarCli</tabstop>
+  <tabstop>cmdActualizar</tabstop>
+  <tabstop>twCliente</tabstop>
+  <tabstop>cmdReservar</tabstop>
+  <tabstop>cmdEditar</tabstop>
+  <tabstop>cmdEliminar</tabstop>
+  <tabstop>cmdListaMas</tabstop>
+  <tabstop>cmdCerrar</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>imagenesPAF/veterinaria.jpg</file>
+        <file>imagenesPAF/inicio.png</file>
+    </qresource>
+</RCC>

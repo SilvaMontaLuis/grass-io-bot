@@ -1,0 +1,904 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>atencion</class>
+ <widget class="QDialog" name="atencion">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>761</width>
+    <height>689</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>741</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>Atención de la Mascota</string>
+   </property>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>20</y>
+      <width>51</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Fecha:</string>
+    </property>
+   </widget>
+   <widget class="QDateEdit" name="dspFecha">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>20</y>
+      <width>110</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>20</y>
+      <width>51</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Hora:</string>
+    </property>
+   </widget>
+   <widget class="QTimeEdit" name="dspHora">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>20</y>
+      <width>81</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>20</y>
+      <width>61</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Veterinaria:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="txtVeterinaria">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>20</y>
+      <width>281</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>ForbiddenCursor</cursorShape>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QPushButton" name="cmdCerrar">
+   <property name="geometry">
+    <rect>
+     <x>649</x>
+     <y>660</y>
+     <width>101</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(255, 87, 90);
+font: 10pt &quot;MS Shell Dlg 2&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Cerrar</string>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="groupBox_2">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>70</y>
+     <width>741</width>
+     <height>121</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>Cliente</string>
+   </property>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>30</y>
+      <width>47</width>
+      <height>13</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>DNI:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="txtBuscarCli">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>50</y>
+      <width>161</width>
+      <height>21</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="cmdBuscarCli">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>80</y>
+      <width>161</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(26, 53, 80);
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>Buscar</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>60</y>
+      <width>47</width>
+      <height>13</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Nombre:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="txtNombreCli">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>60</y>
+      <width>211</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>ForbiddenCursor</cursorShape>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="txtApellidoCli">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>90</y>
+      <width>211</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>ForbiddenCursor</cursorShape>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>90</y>
+      <width>47</width>
+      <height>13</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Apellido:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="txtDniCli">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>30</y>
+      <width>211</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>ForbiddenCursor</cursorShape>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>30</y>
+      <width>47</width>
+      <height>13</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>DNI:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_11">
+    <property name="geometry">
+     <rect>
+      <x>460</x>
+      <y>30</y>
+      <width>51</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Dirección:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_12">
+    <property name="geometry">
+     <rect>
+      <x>460</x>
+      <y>90</y>
+      <width>47</width>
+      <height>13</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Teléfono:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="txtTelefonoCli">
+    <property name="geometry">
+     <rect>
+      <x>520</x>
+      <y>90</y>
+      <width>211</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>ForbiddenCursor</cursorShape>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPlainTextEdit" name="txtDireccionCli">
+    <property name="geometry">
+     <rect>
+      <x>520</x>
+      <y>30</y>
+      <width>211</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="cursor" stdset="0">
+     <cursorShape>ForbiddenCursor</cursorShape>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QGroupBox" name="groupBox_3">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>200</y>
+     <width>741</width>
+     <height>121</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>Mascota</string>
+   </property>
+   <widget class="QLineEdit" name="txtNombreMas">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>30</y>
+      <width>211</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>ForbiddenCursor</cursorShape>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="cmdBuscarMas">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>80</y>
+      <width>161</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(26, 53, 80);
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>Buscar</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="txtBuscarMas">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>50</y>
+      <width>161</width>
+      <height>21</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_13">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>30</y>
+      <width>47</width>
+      <height>13</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Nombre:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="txtPesoMas">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>60</y>
+      <width>121</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>ForbiddenCursor</cursorShape>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_14">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>60</y>
+      <width>47</width>
+      <height>13</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Peso:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_15">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>30</y>
+      <width>47</width>
+      <height>13</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Nombre:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="txtGeneroMas">
+    <property name="geometry">
+     <rect>
+      <x>520</x>
+      <y>30</y>
+      <width>211</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>ForbiddenCursor</cursorShape>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_23">
+    <property name="geometry">
+     <rect>
+      <x>460</x>
+      <y>30</y>
+      <width>47</width>
+      <height>13</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Género:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="txtEspecieMas">
+    <property name="geometry">
+     <rect>
+      <x>520</x>
+      <y>60</y>
+      <width>211</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>ForbiddenCursor</cursorShape>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_24">
+    <property name="geometry">
+     <rect>
+      <x>460</x>
+      <y>60</y>
+      <width>47</width>
+      <height>13</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Especie:</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="cmdAtenderMas">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>90</y>
+      <width>491</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(26, 53, 80);
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>Atender</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_25">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>60</y>
+      <width>47</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>ForbiddenCursor</cursorShape>
+    </property>
+    <property name="text">
+     <string>Kg.</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QGroupBox" name="groupBox_4">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>400</y>
+     <width>741</width>
+     <height>241</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>Resultados</string>
+   </property>
+   <widget class="QTableWidget" name="twAtencion">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>30</y>
+      <width>631</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="cursor" stdset="0">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <column>
+     <property name="text">
+      <string>Código </string>
+     </property>
+     <property name="background">
+      <color>
+       <red>0</red>
+       <green>85</green>
+       <blue>255</blue>
+      </color>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Nombre</string>
+     </property>
+     <property name="background">
+      <color>
+       <red>0</red>
+       <green>85</green>
+       <blue>255</blue>
+      </color>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Peso</string>
+     </property>
+     <property name="background">
+      <color>
+       <red>0</red>
+       <green>85</green>
+       <blue>255</blue>
+      </color>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Motivo</string>
+     </property>
+     <property name="background">
+      <color>
+       <red>0</red>
+       <green>85</green>
+       <blue>255</blue>
+      </color>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Precio</string>
+     </property>
+     <property name="background">
+      <color>
+       <red>0</red>
+       <green>85</green>
+       <blue>255</blue>
+      </color>
+     </property>
+    </column>
+   </widget>
+   <widget class="QPushButton" name="cmdRealizarAten">
+    <property name="geometry">
+     <rect>
+      <x>650</x>
+      <y>30</y>
+      <width>80</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(85, 170, 255);
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>Realizar</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="cmdQuitarAten">
+    <property name="geometry">
+     <rect>
+      <x>650</x>
+      <y>60</y>
+      <width>80</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(255, 87, 90);</string>
+    </property>
+    <property name="text">
+     <string>Quitar</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_19">
+    <property name="geometry">
+     <rect>
+      <x>460</x>
+      <y>150</y>
+      <width>51</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>SubTotal:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="txtSubTotal">
+    <property name="geometry">
+     <rect>
+      <x>510</x>
+      <y>150</y>
+      <width>131</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>ForbiddenCursor</cursorShape>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_21">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>180</y>
+      <width>31</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>IGV:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="txtIgv">
+    <property name="geometry">
+     <rect>
+      <x>510</x>
+      <y>180</y>
+      <width>131</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>ForbiddenCursor</cursorShape>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_22">
+    <property name="geometry">
+     <rect>
+      <x>470</x>
+      <y>210</y>
+      <width>47</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Total:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="txtTotal">
+    <property name="geometry">
+     <rect>
+      <x>510</x>
+      <y>210</y>
+      <width>131</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>ForbiddenCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(170, 170, 127);</string>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QGroupBox" name="groupBox_5">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>330</y>
+     <width>741</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>Servicio de la Atencion</string>
+   </property>
+   <widget class="QLabel" name="label_18">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>30</y>
+      <width>47</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Precio:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_17">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>30</y>
+      <width>61</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Elija Motivo:</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="cmdMotivoAten">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>30</y>
+      <width>105</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="sizeAdjustPolicy">
+     <enum>QComboBox::AdjustToContents</enum>
+    </property>
+    <item>
+     <property name="text">
+      <string>Operacion</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Baño</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Chuequeo</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Corte de pelaje</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Vacunación</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Desparacitacion</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QDoubleSpinBox" name="cmdPrecioAten">
+    <property name="geometry">
+     <rect>
+      <x>460</x>
+      <y>30</y>
+      <width>101</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+    </property>
+    <property name="minimum">
+     <double>10.000000000000000</double>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_20">
+    <property name="geometry">
+     <rect>
+      <x>570</x>
+      <y>30</y>
+      <width>47</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>ForbiddenCursor</cursorShape>
+    </property>
+    <property name="text">
+     <string>Soles.</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <tabstops>
+  <tabstop>dspFecha</tabstop>
+  <tabstop>dspHora</tabstop>
+  <tabstop>txtVeterinaria</tabstop>
+  <tabstop>txtBuscarCli</tabstop>
+  <tabstop>cmdBuscarCli</tabstop>
+  <tabstop>txtDniCli</tabstop>
+  <tabstop>txtNombreCli</tabstop>
+  <tabstop>txtApellidoCli</tabstop>
+  <tabstop>txtDireccionCli</tabstop>
+  <tabstop>txtTelefonoCli</tabstop>
+  <tabstop>txtBuscarMas</tabstop>
+  <tabstop>cmdBuscarMas</tabstop>
+  <tabstop>txtNombreMas</tabstop>
+  <tabstop>txtPesoMas</tabstop>
+  <tabstop>cmdAtenderMas</tabstop>
+  <tabstop>txtGeneroMas</tabstop>
+  <tabstop>txtEspecieMas</tabstop>
+  <tabstop>cmdMotivoAten</tabstop>
+  <tabstop>cmdPrecioAten</tabstop>
+  <tabstop>twAtencion</tabstop>
+  <tabstop>cmdRealizarAten</tabstop>
+  <tabstop>cmdQuitarAten</tabstop>
+  <tabstop>txtSubTotal</tabstop>
+  <tabstop>txtIgv</tabstop>
+  <tabstop>txtTotal</tabstop>
+  <tabstop>cmdCerrar</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>

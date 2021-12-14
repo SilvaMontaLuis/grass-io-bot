@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>registrarDoctor</class>
+ <widget class="QDialog" name="registrarDoctor">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>762</width>
+    <height>209</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QGroupBox" name="groupBox_2">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>741</width>
+     <height>151</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>Registro del Doctor</string>
+   </property>
+   <widget class="QLabel" name="label_8">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>30</y>
+      <width>47</width>
+      <height>13</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Nombres:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="txtTelefono">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>90</y>
+      <width>281</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="maxLength">
+     <number>9</number>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_9">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>90</y>
+      <width>47</width>
+      <height>13</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Teléfono:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_10">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>60</y>
+      <width>47</width>
+      <height>13</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Apellidos:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_11">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>30</y>
+      <width>47</width>
+      <height>13</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Dirección:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="txtNombres">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>30</y>
+      <width>281</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="maxLength">
+     <number>50</number>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="txtApellidos">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>60</y>
+      <width>281</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="maxLength">
+     <number>50</number>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_13">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>90</y>
+      <width>61</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>DNI:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="txtDni">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>90</y>
+      <width>281</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="maxLength">
+     <number>50</number>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_14">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>120</y>
+      <width>41</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Sueldo:</string>
+    </property>
+   </widget>
+   <widget class="QDoubleSpinBox" name="dspSueldo">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>120</y>
+      <width>101</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+    </property>
+    <property name="minimum">
+     <double>930.000000000000000</double>
+    </property>
+    <property name="maximum">
+     <double>9999999.000000000000000</double>
+    </property>
+    <property name="value">
+     <double>930.000000000000000</double>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="txtDireccion">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>30</y>
+      <width>281</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="cursor" stdset="0">
+     <cursorShape>IBeamCursor</cursorShape>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>560</x>
+      <y>120</y>
+      <width>61</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Soles.</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="txtEspecialidad">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>120</y>
+      <width>281</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="maxLength">
+     <number>50</number>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_15">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>120</y>
+      <width>61</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Especialidad:</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QPushButton" name="cmdRegistrar_2">
+   <property name="geometry">
+    <rect>
+     <x>539</x>
+     <y>180</y>
+     <width>101</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(85, 255, 0);
+font: 10pt &quot;MS Shell Dlg 2&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Registrar</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="cmdCerrar_2">
+   <property name="geometry">
+    <rect>
+     <x>649</x>
+     <y>180</y>
+     <width>101</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(255, 87, 90);
+font: 10pt &quot;MS Shell Dlg 2&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Cerrar</string>
+   </property>
+  </widget>
+ </widget>
+ <tabstops>
+  <tabstop>txtNombres</tabstop>
+  <tabstop>txtApellidos</tabstop>
+  <tabstop>txtDni</tabstop>
+  <tabstop>txtEspecialidad</tabstop>
+  <tabstop>txtDireccion</tabstop>
+  <tabstop>txtTelefono</tabstop>
+  <tabstop>dspSueldo</tabstop>
+  <tabstop>cmdRegistrar_2</tabstop>
+  <tabstop>cmdCerrar_2</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>
