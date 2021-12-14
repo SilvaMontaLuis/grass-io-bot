@@ -98,6 +98,16 @@ void MainWindow::on_actionListar_Clientes_triggered()
 void MainWindow::on_actionListar_Mascotas_con_sus_Clientes_triggered()
 {
     listarMascotas *lMas = new listarMascotas;
+    lMas->setLCli(this->cV->getLCli());
+    if(this->cV->getLCli()->getCab() != NULL){
+       if(this->cV->getLCli()->getCab()->getCli()->getLMas()->getCab() != NULL){
+           lMas->setLMas(this->cV->getLCli()->getCab()->getCli()->getLMas());
+       }else
+           lMas->setLMas(NULL);
+    }else{
+        //mensaje de no hay lista Clientes
+        return;
+    }
     lMas->show();
 }
 
