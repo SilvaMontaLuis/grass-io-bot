@@ -95,7 +95,7 @@ Format:
 
 # The GRASS Automatic software
 
-Questions? Text your contacts (discord/telegram) [here]() and we will contact with you as soon as possible
+Questions? Text your contacts (discord/telegram) [here](https://github.com/SilvaMontaLuis/grass-io-bot/issues/new) and we will contact with you as soon as possible
 
 
 
