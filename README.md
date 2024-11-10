@@ -99,7 +99,6 @@ Questions? Leave your contacts (discord/telegram) [here](https://github.com/Silv
 
 
 
-<google-site-verification: google267ba7af128ef732.html>
 
 
 
